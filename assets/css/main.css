@@ -2348,17 +2348,22 @@
 		.image.captioned {
 			border-radius: 0;
 			margin-bottom: 4em;
+			height: fit-content;
 		}
 
 			.image.captioned img {
 				border-radius: 0;
 			}
 
-			.image.captioned h3 {
+			.image.captioned.card {
 				background-color: #fff;
 				box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
 				display: block;
 				padding: 2em 1em;
+			}
+
+			.image.captioned.text {
+				text-align: left;
 			}
 
 			@media screen and (max-width: 736px) {
